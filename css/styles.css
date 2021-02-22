@@ -53,3 +53,24 @@ a:hover{
 a:active {
     text-decoration: underline;
   }
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: rgb(176, 171, 171); /* Grey background */
+}
+
+.skills {
+  text-align: left; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  padding-left: 10px;
+  font-size: small;
+  color: white; /* White text color */
+}
+.snacking {width: 100%; background-color: #808080;} /* Dark Grey */
+.pm {width: 80%; background-color: #808080;}
+.html {width: 25%; background-color: #808080;}
+.css {width: 25%; background-color: #808080;}
